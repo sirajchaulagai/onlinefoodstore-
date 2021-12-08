@@ -1,0 +1,107 @@
+/* cart iteams----*/
+
+.cart-page {
+    margin: 8px 250px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #88443b;
+    border-top: none;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: rgb(248, 241, 241);
+    background: #88443b;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+td input {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table {
+    border-top: none;
+    width: 100;
+    max-width: 400px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.button {
+    text-align: center;
+}
+
+.btn1 {
+    background-color: #8b5105;
+    color: white;
+    padding: 12px;
+    margin: 30px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn1:hover {
+    background-color: #ada097;
+}
+
+
+/*remove button*/
+
+.btn3 {
+    background-color: rgb(246, 247, 248);
+    border: none;
+    color: rgb(19, 18, 18);
+    padding: 2px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: #f3654c;
+}
+
+@media screen and (max-width: 700px) {
+    .cart-page {
+        margin: 0px auto;
+        width: 100%;
+    }
+}

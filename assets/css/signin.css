@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #fffefa;
+    padding: 0 10px;
+}
+
+.center {
+    width: 430px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.center .header {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    padding: 25px 25px;
+    background: #7c8486;
+    border-bottom: 1px solid #7c8486;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.center form {
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 50px 10px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #7c8486;
+    ;
+    border-radius: 0 0 5px 5px;
+}
+
+form input {
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+
+form input[type="Password"] {
+    margin-top: 20px;
+}
+
+form input[type="submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    font-weight: 600;
+    width: 130px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #7c8486;
+}
+
+form input[type="submit"]:hover {
+    background: #5fc1ee;
+    transition: .5s;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+.form-btn {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 60px;
+    font-weight: 600;
+    width: 130px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #7c8486;
+}
+
+.form-btn:hover {
+    background: #5fc1ee;
+    transition: .5s;
+}
